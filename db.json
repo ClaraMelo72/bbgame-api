@@ -86,223 +86,427 @@
     "meta": { "total": 2, "page": 1, "per_page": 10 }
   },
   "missoes": [
-      {
-        "id": 1,
-        "Nome": "Corrigir Acessibilidade no APP PF",
-        "Descrição": "Resolver falha crítica no sistema de defesa",
-        "Objetivo_Técnico": "identificar e corrigir race condition no módulo de defesa",
-        "Tipo_Missão": { "id": 1, "Nome": "Vermelha", "Peso": 3, "Cor": "red-500" },
-        "Progresso_missão": 45,
-        "Status": { "id": 3, "Nome": "Atrasada" },
-        "Data_Criação": "2025-04-30T08:00:00Z",
-        "Data_Prazo": "2025-05-02T18:00:59Z",
-        "Data_Conclusão": null,
-        "Qtd_moedas": 15,
-        "Fases_Total": 3,
-        "Fases_Concluídas": 1,
-        "Planeta": { "id": 2, "Nome": "Terra" },
-        "Projeto": { "id": 2, "Nome": "Acessibilidade App" },
-        "Tech_Líder": { "id": 2, "Nome": "Dra. Vega" }
-      },
-      {
-        "id": 2,
-        "Nome": "Atualizar Dependências Obsoletas BBGame",
-        "Descrição": "Atualizar bibliotecas com vulnerabilidades conhecidas",
-        "Objetivo_Técnico": "Atualizar 5 pacotes críticos para versões estáveis",
-        "Tipo_Missão": { "id": 2, "Nome": "Amarela", "Peso": 2, "Cor": "yellow-500" },
-        "Progresso_missão": 20,
-        "Status": { "id": 3, "Nome": "Atrasada" },
-        "Data_Criação": "2025-04-05T10:00:00Z",
-        "Data_Prazo": "2025-05-04T18:00:59Z",
-        "Data_Conclusão": null,
-        "Qtd_moedas": 10,
-        "Fases_Total": 2,
-        "Fases_Concluídas": 0,
-        "Planeta": { "id": 3, "Nome": "Marte" },
-        "Projeto": { "id": 3, "Nome": "Financiamento Imobiliário" },
-        "Tech_Líder": { "id": 3, "Nome": "Eng. Orion" }
-      },
-      {
-        "id": 3,
-        "Nome": "Implementar Novo Painel de Monitoramento",
-        "Descrição": "Desenvolver dashboard para métricas de performance",
-        "Objetivo_Técnico": "Criar 5 widgets essenciais para monitoramento em tempo real",
-        "Tipo_Missão": { "id": 3, "Nome": "Azul", "Peso": 2, "Cor": "blue-500" },
-        "Progresso_missão": 65,
-        "Status": { "id": 2, "Nome": "Em Progresso" },
-        "Data_Criação": "2025-05-02T09:00:00Z",
-        "Data_Prazo": "2025-05-10T18:00:59Z",
-        "Data_Conclusão": null,
-        "Qtd_moedas": 20,
-        "Fases_Total": 4,
-        "Fases_Concluídas": 2,
-        "Planeta": { "id": 4, "Nome": "Júpiter" },
-        "Projeto": { "id": 4, "Nome": "Carteira bB" },
-        "Tech_Líder": { "id": 4, "Nome": "Eng. Andrômeda" }
-      },
-      {
-        "id": 4,
-        "Nome": "Refatorar Módulo de Autenticação",
-        "Descrição": "Melhorar estrutura e segurança do sistema de login",
-        "Objetivo_Técnico": "Implementar autenticação multifator e reduzir tempo de resposta em 40%",
-        "Tipo_Missão": { "id": 2, "Nome": "Amarela", "Peso": 2, "Cor": "yellow-500" },
-        "Progresso_missão": 30,
-        "Status": { "id": 2, "Nome": "Em Progresso" },
-        "Data_Criação": "2025-05-02T14:00:00Z",
-        "Data_Prazo": "2025-05-08T11:00:59Z",
-        "Data_Conclusão": null,
-        "Qtd_moedas": 15,
-        "Fases_Total": 3,
-        "Fases_Concluídas": 1,
-        "Planeta": { "id": 5, "Nome": "Saturno" },
-        "Projeto": { "id": 5, "Nome": "BB Cash" },
-        "Tech_Líder": { "id": 5, "Nome": "Dr. Cronos" }
-      },
-      {
-        "id": 5,
-        "Nome": "Migrar Banco de Dados para Nova Versão",
-        "Descrição": "Atualizar PostgreSQL para versão 16",
-        "Objetivo_Técnico": "Migrar dados sem downtime e otimizar queries críticas",
-        "Tipo_Missão": { "id": 1, "Nome": "Vermelha", "Peso": 3, "Cor": "red-500" },
-        "Progresso_missão": 50,
-        "Status": { "id": 2, "Nome": "Em Progresso" },
-        "Data_Criação": "2025-05-02T11:00:00Z",
-        "Data_Prazo": "2025-05-06T16:00:59Z",
-        "Data_Conclusão": null,
-        "Qtd_moedas": 25,
-        "Fases_Total": 5,
-        "Fases_Concluídas": 2,
-        "Planeta": { "id": 6, "Nome": "Urano" },
-        "Projeto": { "id": 6, "Nome": "Open Finance" },
-        "Tech_Líder": { "id": 6, "Nome": "Eng. Tritão" }
-      },
-      {
-        "id": 6,
-        "Nome": "Implementar Testes de Integração",
-        "Descrição": "Criar suite de testes para módulo de pagamentos",
-        "Objetivo_Técnico": "Atingir 80% de cobertura de testes para fluxos críticos",
-        "Tipo_Missão": { "id": 2, "Nome": "Amarela", "Peso": 2, "Cor": "yellow-500" },
-        "Progresso_missão": 75,
-        "Status": { "id": 2, "Nome": "Em Progresso" },
-        "Data_Criação": "2025-05-01T16:00:00Z",
-        "Data_Prazo": "2025-05-07T20:00:59Z",
-        "Data_Conclusão": null,
-        "Qtd_moedas": 12,
-        "Fases_Total": 2,
-        "Fases_Concluídas": 1,
-        "Planeta": { "id": 7, "Nome": "Netuno" },
-        "Projeto": { "id": 7, "Nome": "BB Cash" },
-        "Tech_Líder": { "id": 7, "Nome": "Dra. Solaris" }
-      },
-      {
-        "id": 7,
-        "Nome": "Documentar API de Navegação",
-        "Descrição": "Criar documentação Swagger para endpoints públicos",
-        "Objetivo_Técnico": "Documentar 100% dos endpoints com exemplos de uso",
-        "Tipo_Missão": { "id": 4, "Nome": "Verde", "Peso": 1, "Cor": "green-500" },
-        "Progresso_missão": 100,
-        "Status": { "id": 1, "Nome": "Concluída" },
-        "Data_Criação": "2025-04-25T10:00:00Z",
-        "Data_Prazo": "2025-05-03T21:00:59Z",
-        "Data_Conclusão": "2025-05-02T14:30:00Z",
-        "Qtd_moedas": 8,
-        "Fases_Total": 1,
-        "Fases_Concluídas": 1,
-        "Planeta": { "id": 8, "Nome": "Plutão" },
-        "Projeto": { "id": 8, "Nome": "Empréstimo Pessoal" },
-        "Tech_Líder": { "id": 8, "Nome": "Eng. Phoenix" }
-      },
-      {
-        "id": 8,
-        "Nome": "Atualizar Documentação do Código",
-        "Descrição": "Revisar conteúdo da página de introdução para novos devs",
-        "Objetivo_Técnico": "Incluir 5 novos tutoriais e melhorar fluxo de aprendizado",
-        "Tipo_Missão": { "id": 4, "Nome": "Verde", "Peso": 1, "Cor": "green-500" },
-        "Progresso_missão": 100,
-        "Status": { "id": 1, "Nome": "Concluída" },
-        "Data_Criação": "2025-04-22T09:00:00Z",
-        "Data_Prazo": "2025-04-29T22:00:59Z",
-        "Data_Conclusão": "2025-05-01T11:15:00Z",
-        "Qtd_moedas": 5,
-        "Fases_Total": 1,
-        "Fases_Concluídas": 1,
-        "Planeta": { "id": 9, "Nome": "Lua" },
-        "Projeto": { "id": 9, "Nome": "Conta Universitária" },
-        "Tech_Líder": { "id": 9, "Nome": "Capitã Selene" }
-      },
-      {
-        "id": 9,
-        "Nome": "Configurar Pipeline de CI/CD",
-        "Descrição": "Automatizar processo de deploy em ambiente de staging",
-        "Objetivo_Técnico": "Reduzir tempo de deploy em 50% com automação",
-        "Tipo_Missão": { "id": 2, "Nome": "Amarela", "Peso": 2, "Cor": "yellow-500" },
-        "Progresso_missão": 100,
-        "Status": { "id": 1, "Nome": "Concluída" },
-        "Data_Criação": "2025-04-25T13:00:00Z",
-        "Data_Prazo": "2025-05-01T20:00:59Z",
-        "Data_Conclusão": "2025-04-30T16:45:00Z",
-        "Qtd_moedas": 15,
-        "Fases_Total": 2,
-        "Fases_Concluídas": 2,
-        "Planeta": { "id": 10, "Nome": "Mercúrio" },
-        "Projeto": { "id": 10, "Nome": "CDB DI" },
-        "Tech_Líder": { "id": 10, "Nome": "Eng. Hermes" }
-      },
-      {
-        "id": 10,
-        "Nome": "Implementar Sistema de Logs Centralizado",
-        "Descrição": "Configurar ELK Stack para agregação de logs",
-        "Objetivo_Técnico": "Reduzir tempo de diagnóstico de problemas em 60%",
-        "Tipo_Missão": { "id": 1, "Nome": "Vermelha", "Peso": 3, "Cor": "red-500" },
-        "Progresso_missão": 100,
-        "Status": { "id": 1, "Nome": "Concluída" },
-        "Data_Criação": "2025-04-10T08:00:00Z",
-        "Data_Prazo": "2025-04-25T22:00:59Z",
-        "Data_Conclusão": "2025-04-20T12:00:00Z",
-        "Qtd_moedas": 20,
-        "Fases_Total": 3,
-        "Fases_Concluídas": 3,
-        "Planeta": { "id": 11, "Nome": "Vênus" },
-        "Projeto": { "id": 11, "Nome": "Conta Universitária" },
-        "Tech_Líder": { "id": 11, "Nome": "Dr. Skywalker" }
-      },
-      {
-        "id": 11,
-        "Nome": "Resolver Vazamento de Memória",
-        "Descrição": "Revisar e atualizar documento de políticas de acesso",
-        "Objetivo_Técnico": "Implementar 10 novas regras de compliance",
-        "Tipo_Missão": { "id": 2, "Nome": "Amarela", "Peso": 2, "Cor": "yellow-500" },
-        "Progresso_missão": 100,
-        "Status": { "id": 1, "Nome": "Concluída" },
-        "Data_Criação": "2025-03-15T14:00:00Z",
-        "Data_Prazo": "2025-03-30T21:00:59Z",
-        "Data_Conclusão": "2025-03-25T09:30:00Z",
-        "Qtd_moedas": 10,
-        "Fases_Total": 1,
-        "Fases_Concluídas": 1,
-        "Planeta": { "id": 12, "Nome": "Terra" },
-        "Projeto": { "id": 12, "Nome": "BB Investimento" },
-        "Tech_Líder": { "id": 12, "Nome": "Comandante Zeus" }
-      },
-      {
-        "id": 12,
-        "Nome": "Otimizar Consultas ao Banco de Dados",
-        "Descrição": "identificar e melhorar queries lentas",
-        "Objetivo_Técnico": "Reduzir tempo médio de consulta em 35%",
-        "Tipo_Missão": { "id": 2, "Nome": "Amarela", "Peso": 2, "Cor": "yellow-500" },
-        "Progresso_missão": 100,
-        "Status": { "id": 1, "Nome": "Concluída" },
-        "Data_Criação": "2025-02-01T11:00:00Z",
-        "Data_Prazo": "2025-02-15T18:00:59Z",
-        "Data_Conclusão": "2025-05-01T17:20:00Z",
-        "Qtd_moedas": 12,
-        "Fases_Total": 2,
-        "Fases_Concluídas": 2,
-        "Planeta": { "id": 13, "Nome": "Marte" },
-        "Projeto": { "id": 13, "Nome": "BB Investimento" },
-        "Tech_Líder": { "id": 13, "Nome": "Dra. Solaris" }
-      }
-    ],
+  {
+    "id": 1,
+    "Nome": "Corrigir Acessibilidade no APP PF",
+    "Descrição": "Esta missão crítica envolve a correção de problemas de acessibilidade no aplicativo de Previdência Federal, garantindo conformidade com as diretrizes WCAG 2.1. O foco está em melhorar a experiência para usuários com deficiências visuais e motoras, incluindo: leitores de tela, navegação por teclado e contraste de cores.",
+    "Objetivo_Técnico": "1. Identificar e corrigir race condition no módulo de defesa\n2. Implementar ARIA labels para todos os componentes interativos\n3. Garantir contraste mínimo de 4.5:1 para textos\n4. Adicionar suporte completo a navegação por teclado",
+    "Tipo_Missão": {
+      "id": 1,
+      "Nome": "Vermelha",
+      "Peso": 3,
+      "Cor": "red-500"
+    },
+    "Progresso_missão": 45,
+    "Status": {
+      "id": 3,
+      "Nome": "Atrasada"
+    },
+    "Data_Criação": "2025-04-30T08:00:00Z",
+    "Data_Prazo": "2025-05-02T18:00:59Z",
+    "Data_Conclusão": null,
+    "Qtd_moedas": 15,
+    "Fases_Total": 3,
+    "Fases_Concluídas": 1,
+    "Planeta": {
+      "id": 2,
+      "Nome": "Terra"
+    },
+    "Projeto": {
+      "id": 2,
+      "Nome": "Acessibilidade App"
+    },
+    "Tech_Líder": {
+      "id": 2,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 2,
+    "Nome": "Atualizar Dependências Obsoletas BBGame",
+    "Descrição": "Missão essencial para manter a segurança e estabilidade do sistema BBGame, envolvendo a atualização de bibliotecas com vulnerabilidades conhecidas que representam riscos à segurança dos dados dos clientes e à estabilidade da plataforma.",
+    "Objetivo_Técnico": "1. Atualizar 5 pacotes críticos para versões estáveis\n2. Realizar testes de regressão completos\n3. Documentar breaking changes\n4. Implementar monitoramento pós-atualização",
+    "Tipo_Missão": {
+      "id": 2,
+      "Nome": "Amarela",
+      "Peso": 2,
+      "Cor": "yellow-500"
+    },
+    "Progresso_missão": 20,
+    "Status": {
+      "id": 3,
+      "Nome": "Atrasada"
+    },
+    "Data_Criação": "2025-04-05T10:00:00Z",
+    "Data_Prazo": "2025-05-04T18:00:59Z",
+    "Data_Conclusão": null,
+    "Qtd_moedas": 10,
+    "Fases_Total": 2,
+    "Fases_Concluídas": 0,
+    "Planeta": {
+      "id": 3,
+      "Nome": "Marte"
+    },
+    "Projeto": {
+      "id": 3,
+      "Nome": "Financiamento Imobiliário"
+    },
+    "Tech_Líder": {
+      "id": 3,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 3,
+    "Nome": "Implementar Novo Painel de Monitoramento",
+    "Descrição": "Desenvolvimento de um dashboard abrangente para visualização de métricas de performance em tempo real, permitindo rápida identificação de problemas e tomada de decisão baseada em dados para a equipe de operações.",
+    "Objetivo_Técnico": "1. Criar 5 widgets essenciais para monitoramento\n2. Integrar com sistemas de alerta\n3. Implementar visualização histórica (últimos 30 dias)\n4. Garantir atualização em tempo real (máx. 5s de delay)",
+    "Tipo_Missão": {
+      "id": 3,
+      "Nome": "Azul",
+      "Peso": 2,
+      "Cor": "blue-500"
+    },
+    "Progresso_missão": 65,
+    "Status": {
+      "id": 2,
+      "Nome": "Em Progresso"
+    },
+    "Data_Criação": "2025-05-02T09:00:00Z",
+    "Data_Prazo": "2025-05-10T18:00:59Z",
+    "Data_Conclusão": null,
+    "Qtd_moedas": 20,
+    "Fases_Total": 4,
+    "Fases_Concluídas": 2,
+    "Planeta": {
+      "id": 4,
+      "Nome": "Júpiter"
+    },
+    "Projeto": {
+      "id": 4,
+      "Nome": "Carteira bB"
+    },
+    "Tech_Líder": {
+      "id": 4,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 4,
+    "Nome": "Refatorar Módulo de Autenticação",
+    "Descrição": "Reestruturação completa do sistema de autenticação para melhorar segurança, performance e experiência do usuário, incluindo implementação de autenticação multifator e redução significativa no tempo de resposta.",
+    "Objetivo_Técnico": "1. Implementar autenticação multifator\n2. Reduzir tempo de resposta em 40%\n3. Migrar para JWT tokens\n4. Adicionar logs detalhados de autenticação",
+    "Tipo_Missão": {
+      "id": 2,
+      "Nome": "Amarela",
+      "Peso": 2,
+      "Cor": "yellow-500"
+    },
+    "Progresso_missão": 30,
+    "Status": {
+      "id": 2,
+      "Nome": "Em Progresso"
+    },
+    "Data_Criação": "2025-05-02T14:00:00Z",
+    "Data_Prazo": "2025-05-08T11:00:59Z",
+    "Data_Conclusão": null,
+    "Qtd_moedas": 15,
+    "Fases_Total": 3,
+    "Fases_Concluídas": 1,
+    "Planeta": {
+      "id": 5,
+      "Nome": "Saturno"
+    },
+    "Projeto": {
+      "id": 5,
+      "Nome": "BB Cash"
+    },
+    "Tech_Líder": {
+      "id": 5,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 5,
+    "Nome": "Migrar Banco de Dados para Nova Versão",
+    "Descrição": "Migração crítica do PostgreSQL para a versão 16, envolvendo planejamento detalhado para garantir continuidade do serviço sem downtime e otimização de queries para melhorar performance geral do sistema.",
+    "Objetivo_Técnico": "1. Migrar dados sem downtime\n2. Otimizar 15 queries críticas\n3. Implementar replicação\n4. Atualizar drivers de conexão",
+    "Tipo_Missão": {
+      "id": 1,
+      "Nome": "Vermelha",
+      "Peso": 3,
+      "Cor": "red-500"
+    },
+    "Progresso_missão": 50,
+    "Status": {
+      "id": 2,
+      "Nome": "Em Progresso"
+    },
+    "Data_Criação": "2025-05-02T11:00:00Z",
+    "Data_Prazo": "2025-05-06T16:00:59Z",
+    "Data_Conclusão": null,
+    "Qtd_moedas": 25,
+    "Fases_Total": 5,
+    "Fases_Concluídas": 2,
+    "Planeta": {
+      "id": 6,
+      "Nome": "Urano"
+    },
+    "Projeto": {
+      "id": 6,
+      "Nome": "Open Finance"
+    },
+    "Tech_Líder": {
+      "id": 6,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 6,
+    "Nome": "Implementar Testes de Integração",
+    "Descrição": "Criação de suite abrangente de testes de integração para o módulo de pagamentos, garantindo cobertura de cenários críticos e prevenindo regressões em futuras atualizações do sistema.",
+    "Objetivo_Técnico": "1. Atingir 80% de cobertura para fluxos críticos\n2. Implementar 15 cenários de teste\n3. Integrar com pipeline CI/CD\n4. Reduzir falsos positivos em 60%",
+    "Tipo_Missão": {
+      "id": 2,
+      "Nome": "Amarela",
+      "Peso": 2,
+      "Cor": "yellow-500"
+    },
+    "Progresso_missão": 75,
+    "Status": {
+      "id": 2,
+      "Nome": "Em Progresso"
+    },
+    "Data_Criação": "2025-05-01T16:00:00Z",
+    "Data_Prazo": "2025-05-07T20:00:59Z",
+    "Data_Conclusão": null,
+    "Qtd_moedas": 12,
+    "Fases_Total": 2,
+    "Fases_Concluídas": 1,
+    "Planeta": {
+      "id": 7,
+      "Nome": "Netuno"
+    },
+    "Projeto": {
+      "id": 7,
+      "Nome": "BB Cash"
+    },
+    "Tech_Líder": {
+      "id": 7,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 7,
+    "Nome": "Documentar API de Navegação",
+    "Descrição": "Elaboração completa de documentação Swagger para todos os endpoints públicos da API de Navegação, incluindo exemplos práticos de uso, códigos de erro e modelos de requisição/resposta.",
+    "Objetivo_Técnico": "1. Documentar 100% dos endpoints\n2. Incluir 3 exemplos por endpoint\n3. Padronizar formato de documentação\n4. Integrar com portal de desenvolvedores",
+    "Tipo_Missão": {
+      "id": 4,
+      "Nome": "Verde",
+      "Peso": 1,
+      "Cor": "green-500"
+    },
+    "Progresso_missão": 100,
+    "Status": {
+      "id": 1,
+      "Nome": "Concluída"
+    },
+    "Data_Criação": "2025-04-25T10:00:00Z",
+    "Data_Prazo": "2025-05-03T21:00:59Z",
+    "Data_Conclusão": "2025-05-02T14:30:00Z",
+    "Qtd_moedas": 8,
+    "Fases_Total": 1,
+    "Fases_Concluídas": 1,
+    "Planeta": {
+      "id": 8,
+      "Nome": "Plutão"
+    },
+    "Projeto": {
+      "id": 8,
+      "Nome": "Empréstimo Pessoal"
+    },
+    "Tech_Líder": {
+      "id": 8,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 8,
+    "Nome": "Atualizar Documentação do Código",
+    "Descrição": "Revisão completa e atualização da documentação técnica do projeto, focando em melhorar a experiência de desenvolvedores novos na equipe e reduzir o tempo de onboarding.",
+    "Objetivo_Técnico": "1. Incluir 5 novos tutoriais passo-a-passo\n2. Documentar arquitetura do sistema\n3. Criar glossário de termos técnicos\n4. Implementar busca na documentação",
+    "Tipo_Missão": {
+      "id": 4,
+      "Nome": "Verde",
+      "Peso": 1,
+      "Cor": "green-500"
+    },
+    "Progresso_missão": 100,
+    "Status": {
+      "id": 1,
+      "Nome": "Concluída"
+    },
+    "Data_Criação": "2025-04-22T09:00:00Z",
+    "Data_Prazo": "2025-04-29T22:00:59Z",
+    "Data_Conclusão": "2025-05-01T11:15:00Z",
+    "Qtd_moedas": 5,
+    "Fases_Total": 1,
+    "Fases_Concluídas": 1,
+    "Planeta": {
+      "id": 9,
+      "Nome": "Lua"
+    },
+    "Projeto": {
+      "id": 9,
+      "Nome": "Conta Universitária"
+    },
+    "Tech_Líder": {
+      "id": 9,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 9,
+    "Nome": "Configurar Pipeline de CI/CD",
+    "Descrição": "Automatização completa do processo de build, teste e deploy para ambiente de staging, reduzindo significativamente o tempo entre desenvolvimento e disponibilização para testes.",
+    "Objetivo_Técnico": "1. Reduzir tempo de deploy em 50%\n2. Implementar testes automatizados\n3. Configurar aprovações manuais para produção\n4. Monitorar métricas de pipeline",
+    "Tipo_Missão": {
+      "id": 2,
+      "Nome": "Amarela",
+      "Peso": 2,
+      "Cor": "yellow-500"
+    },
+    "Progresso_missão": 100,
+    "Status": {
+      "id": 1,
+      "Nome": "Concluída"
+    },
+    "Data_Criação": "2025-04-25T13:00:00Z",
+    "Data_Prazo": "2025-05-01T20:00:59Z",
+    "Data_Conclusão": "2025-04-30T16:45:00Z",
+    "Qtd_moedas": 15,
+    "Fases_Total": 2,
+    "Fases_Concluídas": 2,
+    "Planeta": {
+      "id": 10,
+      "Nome": "Mercúrio"
+    },
+    "Projeto": {
+      "id": 10,
+      "Nome": "CDB DI"
+    },
+    "Tech_Líder": {
+      "id": 10,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 10,
+    "Nome": "Implementar Sistema de Logs Centralizado",
+    "Descrição": "Configuração completa da stack ELK (Elasticsearch, Logstash, Kibana) para agregação, análise e visualização centralizada de logs de todos os sistemas, permitindo rápida identificação e solução de problemas.",
+    "Objetivo_Técnico": "1. Reduzir tempo de diagnóstico em 60%\n2. Configurar alertas baseados em logs\n3. Implementar retenção de 30 dias\n4. Treinar equipe na utilização",
+    "Tipo_Missão": {
+      "id": 1,
+      "Nome": "Vermelha",
+      "Peso": 3,
+      "Cor": "red-500"
+    },
+    "Progresso_missão": 100,
+    "Status": {
+      "id": 1,
+      "Nome": "Concluída"
+    },
+    "Data_Criação": "2025-04-10T08:00:00Z",
+    "Data_Prazo": "2025-04-25T22:00:59Z",
+    "Data_Conclusão": "2025-04-20T12:00:00Z",
+    "Qtd_moedas": 20,
+    "Fases_Total": 3,
+    "Fases_Concluídas": 3,
+    "Planeta": {
+      "id": 11,
+      "Nome": "Vênus"
+    },
+    "Projeto": {
+      "id": 11,
+      "Nome": "Conta Universitária"
+    },
+    "Tech_Líder": {
+      "id": 11,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 11,
+    "Nome": "Resolver Vazamento de Memória",
+    "Descrição": "Identificação e correção de vazamento de memória no módulo de processamento de transações, que vem causando instabilidade periódica no sistema durante picos de uso.",
+    "Objetivo_Técnico": "1. Identificar origem do vazamento\n2. Implementar correção permanente\n3. Adicionar monitoramento contínuo\n4. Documentar padrões para prevenção",
+    "Tipo_Missão": {
+      "id": 2,
+      "Nome": "Amarela",
+      "Peso": 2,
+      "Cor": "yellow-500"
+    },
+    "Progresso_missão": 100,
+    "Status": {
+      "id": 1,
+      "Nome": "Concluída"
+    },
+    "Data_Criação": "2025-03-15T14:00:00Z",
+    "Data_Prazo": "2025-03-30T21:00:59Z",
+    "Data_Conclusão": "2025-03-25T09:30:00Z",
+    "Qtd_moedas": 10,
+    "Fases_Total": 1,
+    "Fases_Concluídas": 1,
+    "Planeta": {
+      "id": 12,
+      "Nome": "Terra"
+    },
+    "Projeto": {
+      "id": 12,
+      "Nome": "BB Investimento"
+    },
+    "Tech_Líder": {
+      "id": 12,
+      "Nome": "Maiara Silva"
+    }
+  },
+  {
+    "id": 12,
+    "Nome": "Otimizar Consultas ao Banco de Dados",
+    "Descrição": "Análise profunda e otimização das queries mais críticas ao banco de dados, visando reduzir carga no servidor e melhorar tempo de resposta para os usuários finais.",
+    "Objetivo_Técnico": "1. Reduzir tempo médio de consulta em 35%\n2. Identificar 10 queries problemáticas\n3. Implementar índices estratégicos\n4. Reescrever queries complexas",
+    "Tipo_Missão": {
+      "id": 2,
+      "Nome": "Amarela",
+      "Peso": 2,
+      "Cor": "yellow-500"
+    },
+    "Progresso_missão": 100,
+    "Status": {
+      "id": 1,
+      "Nome": "Concluída"
+    },
+    "Data_Criação": "2025-02-01T11:00:00Z",
+    "Data_Prazo": "2025-02-15T18:00:59Z",
+    "Data_Conclusão": "2025-05-01T17:20:00Z",
+    "Qtd_moedas": 12,
+    "Fases_Total": 2,
+    "Fases_Concluídas": 2,
+    "Planeta": {
+      "id": 13,
+      "Nome": "Marte"
+    },
+    "Projeto": {
+      "id": 13,
+      "Nome": "BB Investimento"
+    },
+    "Tech_Líder": {
+      "id": 13,
+      "Nome": "Maiara Silva"
+    }
+  }
+],
   "tipos_missoes": {
     "data": [
       {
