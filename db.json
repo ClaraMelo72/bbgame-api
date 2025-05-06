@@ -88,7 +88,7 @@
   "missoes": [
       {
         "id": 1,
-        "Nome": "Corrigir Acessibilidade no APP",
+        "Nome": "Corrigir Acessibilidade no APP PF",
         "Descrição": "Resolver falha crítica no sistema de defesa",
         "Objetivo_Técnico": "identificar e corrigir race condition no módulo de defesa",
         "Tipo_Missão": { "id": 1, "Nome": "Vermelha", "Peso": 3, "Cor": "red-500" },
@@ -106,7 +106,7 @@
       },
       {
         "id": 2,
-        "Nome": "Atualizar Dependências Obsoletas",
+        "Nome": "Atualizar Dependências Obsoletas BBGame",
         "Descrição": "Atualizar bibliotecas com vulnerabilidades conhecidas",
         "Objetivo_Técnico": "Atualizar 5 pacotes críticos para versões estáveis",
         "Tipo_Missão": { "id": 2, "Nome": "Amarela", "Peso": 2, "Cor": "yellow-500" },
