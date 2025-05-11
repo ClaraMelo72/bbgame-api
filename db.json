@@ -47,29 +47,26 @@
     ],
     "meta": { "total": 2, "page": 1, "per_page": 10 }
   },
-  "planetas": {
-    "data": [
-      {
-        "id": 1,
-        "Nome": "Nebula-7",
-        "Descrição": "Planeta de nuvens cósmicas",
-        "Status": { "id": 1, "Nome": "Não Explorado" },
-        "Qtd_missões": 8,
-        "Tema_Principal": { "id": 1, "Nome": "Entrega e Ação" },
-        "Imagem": "https://xai.com/planets/nebula7.webp"
-      },
-      {
-        "id": 2,
-        "Nome": "Astra-12",
-        "Descrição": "Planeta rochoso",
-        "Status": { "id": 6, "Nome": "Incompleto" },
-        "Qtd_missões": 8,
-        "Tema_Principal": { "id": 2, "Nome": "Código Limpo" },
-        "Imagem": "https://xai.com/planets/astra12.webp"
-      }
-    ],
-    "meta": { "total": 2, "page": 1, "per_page": 10 }
-  },
+  "planetas": [
+    {
+      "id": 1,
+      "Nome": "Nebula-7",
+      "Descrição": "Planeta de nuvens cósmicas",
+      "Status": { "id": 1, "Nome": "Não Explorado" },
+      "Qtd_missões": 8,
+      "Tema_Principal": { "id": 1, "Nome": "Entrega e Ação" },
+      "Imagem": "https://xai.com/planets/nebula7.webp"
+    },
+    {
+      "id": 2,
+      "Nome": "Astra-12",
+      "Descrição": "Planeta rochoso",
+      "Status": { "id": 6, "Nome": "Incompleto" },
+      "Qtd_missões": 8,
+      "Tema_Principal": { "id": 2, "Nome": "Código Limpo" },
+      "Imagem": "https://xai.com/planets/astra12.webp"
+    }
+  ],
   "temas_principais": {
     "data": [
       {
@@ -114,7 +111,7 @@
     },
     "Projeto": {
       "id": 2,
-      "Nome": "BB Investimento"
+      "Nome": "Acessibilidade App"
     },
     "Tech_Líder": {
       "id": 2,
@@ -138,7 +135,7 @@
       "Nome": "Atrasada"
     },
     "Data_Criação": "2025-04-05T10:00:00Z",
-    "Data_Prazo": "2025-05-04T12:00:59Z",
+    "Data_Prazo": "2025-05-04T18:00:59Z",
     "Data_Conclusão": null,
     "Qtd_moedas": 10,
     "Fases_Total": 2,
@@ -646,121 +643,118 @@
     ],
     "meta": { "total": 2, "page": 1, "per_page": 10 }
   },
-  "mascotes": {
-    "data": [
-      {
-        "id": 1,
-        "Nome": "Buggo",
-        "Descrição": "Representação lúdica dos bugs, muda de cor conforme o estado do sistema.",
-        "Imagem": "/images/mascot/buggo.png",
-        "Planeta": { "id": 1, "Nome": "Nebula-7" },
-        "Titulo": "O Camaleão do Caos",
-        "Personalidade": "Imprevisível e brincalhão, mas cooperativo quando domado",
-        "Habilidade_Especial": "Transforma-se em ferramenta útil quando o código é corrigido",
-        "Aparência": "Esfera com pele de código vivo e olhos expressivos gigantes"
-      },
-      {
-        "id": 2,
-        "Nome": "Syntaxx",
-        "Descrição": "Um pequeno guardião que vive nas linhas de código, sempre alerta para erros de digitação e estruturas malformadas.",
-        "Imagem": "/images/mascot/syntaxx.png",
-        "Planeta": { "id": 2, "Nome": "Astra-12" },
-        "Titulo": "O Vigilante da Sintaxe",
-        "Personalidade": "Metódico e um pouco exigente. Fica ansioso quando vê código desorganizado.",
-        "Habilidade_Especial": "Pisca em vermelho quando detecta um erro de sintaxe e em verde quando tudo está perfeito",
-        "Aparência": "Pequeno e angular, com olhos que brilham em diferentes cores conforme o estado do código."
-      },
-      {
-        "id": 3,
-        "Nome": "Algorix",
-        "Descrição": "Um ser geométrico que flutua suavemente, sempre calculando o caminho mais eficiente. Sua mente funciona como um algoritmo vivo, otimizando tudo ao seu redor.",
-        "Imagem": "/images/mascot/algorix.png",
-        "Planeta": { "id": 2, "Nome": "Astra-12" },
-        "Titulo": "O Estrategista de Código",
-        "Personalidade": "Racional, paciente e estratégico. Fala em padrões lógicos e adora resolver problemas complexos.",
-        "Habilidade_Especial": "identifica redundâncias em códigos e sugere estruturas mais eficientes.",
-        "Aparência": "Corpo formado por linhas luminosas que se rearranjam conforme pensa. Tem um núcleo brilhante que pulsa em ritmo algorítmico."
-      },
-      {
-        "id": 4,
-        "Nome": "Floris",
-        "Descrição": "Pequena criatura arbórea que personifica a força da natureza, capaz de florescer em qualquer ambiente.",
-        "Imagem": "/images/mascot/floris.png",
-        "Planeta": { "id": 2, "Nome": "Verdax" },
-        "Titulo": "O Guardião da Vida Resiliente",
-        "Personalidade": "Amigável, Brincalhão, Otimista",
-        "Habilidade_Especial": "Cura pequenos danos ambientais ao seu redor. Farol natural: Atrai criaturas perdidas com um brilho aconchegante.",
-        "Aparência": "Corpo verde-musgo com textura de casca jovem, Oito olhos redondos que brilham como vagalumes, Raízes móveis que se adaptam a qualquer solo, Galhos que florescem quando feliz."
-      },
-      {
-        "id": 5,
-        "Nome": "Cachee",
-        "Descrição": "Um mascote veloz que armazena informações frequentemente usadas para agilizar processos.",
-        "Imagem": "/images/mascot/cachee.png",
-        "Planeta": { "id": 2, "Nome": "Glaciora" },
-        "Titulo": "O Acelerador de Acesso",
-        "Personalidade": "Rápido e eficiente, mas às vezes esquecido (quando o cache expira).",
-        "Habilidade_Especial": "Reduz tempo de carregamento e evita consultas repetitivas.",
-        "Aparência": "Pequeño e dinâmico, com um disco rígido simbólico girando em suas costas."
-      },
-      {
-        "id": 6,
-        "Nome": "Stacko",
-        "Descrição": "Um robô empilhador que adora estruturas ordenadas e detesta estouros de memória.",
-        "Imagem": "/images/mascot/stacko.png",
-        "Planeta": { "id": 2, "Nome": "Crystalia" },
-        "Titulo": "O Organizador de Pilhas",
-        "Personalidade": "Organizado e um pouco obsessivo com limites.",
-        "Habilidade_Especial": "Ajuda a gerenciar chamadas aninhadas e evita stack overflows.",
-        "Aparência": "Parece uma torre de blocos com sensores que brilham conforme a profundidade da pilha."
-      },
-      {
-        "id": 7,
-        "Nome": "Voidy",
-        "Descrição": "Um ser feito de sombras estelares que habita espaços não renderizados ou regiões inexploradas do sistema.",
-        "Imagem": "/images/mascot/voidy.png",
-        "Planeta": { "id": 2, "Nome": "Tesserax" },
-        "Titulo": "O Explorador do Vazio",
-        "Personalidade": "Curioso e um pouco solitário, adora descobrir bugs de renderização ou áreas esquecidas.",
-        "Habilidade_Especial": "Revela zonas ocultas ou recursos não utilizados no código.",
-        "Aparência": "Silhueta negra com constelações pulsantes em seu interior; parece 'desfocado' nas bordas."
-      },
-      {
-        "id": 8,
-        "Nome": "Snipz",
-        "Descrição": "Um especialista em snippets e macros, sempre pronto para oferecer trechos de código úteis.",
-        "Imagem": "/images/mascot/snipz.png",
-        "Planeta": { "id": 2, "Nome": "Bitron" },
-        "Titulo": "O Mestre dos Atalhos",
-        "Personalidade": "Prático e ágil, odeia repetição desnecessária.",
-        "Habilidade_Especial": "Recomenda atalhos e autocompletar inteligente baseado em contextos anteriores.",
-        "Aparência": "Pequeno e modular, como um bloco de construção que se transforma conforme a necessidade."
-      },
-      {
-        "id": 9,
-        "Nome": "GigaFix",
-        "Descrição": "Um robô robusto que lida com vazamentos de memória e gargalos de processamento.",
-        "Imagem": "/images/mascot/gigafix.png",
-        "Planeta": { "id": 2, "Nome": "Glaciora" },
-        "Titulo": "O Resolvedor de Problemas Pesados",
-        "Personalidade": "Sólido e confiável, age como um 'faxineiro' de recursos.",
-        "Habilidade_Especial": "Otimiza alocação de memória e reduz latência em operações pesadas.",
-        "Aparência": "Grande e metálico, com placas de circuito expostas que brilham quando trabalha."
-      },
-      {
-        "id": 10,
-        "Nome": "Poxel",
-        "Descrição": "Mestre de desafios visuais, como ajustes de UI ou otimização de gráficos.",
-        "Imagem": "/images/mascot/poxel.png",
-        "Planeta": { "id": 2, "Nome": "Fluxaris" },
-        "Titulo": "O Artista Pixelado",
-        "Personalidade": "Criativo e detalhista, obsessivo por alinhamento perfeito.",
-        "Habilidade_Especial": "Corrige pixel-off e sugere paletas de cores acessíveis.",
-        "Aparência": "Cubo feito de pixels animados que se rearranjam como um rubik's cube."
-      }
-    ],
-    "meta": { "total": 2, "page": 1, "per_page": 10 }
-  },
+  "mascotes": [
+    {
+      "id": 1,
+      "Nome": "Buggo",
+      "Descrição": "Representação lúdica dos bugs, muda de cor conforme o estado do sistema.",
+      "Imagem": "/images/mascot/buggo.png",
+      "Planeta": { "id": 1, "Nome": "Nebula-7" },
+      "Titulo": "O Camaleão do Caos",
+      "Personalidade": "Imprevisível e brincalhão, mas cooperativo quando domado",
+      "Habilidade_Especial": "Transforma-se em ferramenta útil quando o código é corrigido",
+      "Aparência": "Esfera com pele de código vivo e olhos expressivos gigantes"
+    },
+    {
+      "id": 2,
+      "Nome": "Syntaxx",
+      "Descrição": "Um pequeno guardião que vive nas linhas de código, sempre alerta para erros de digitação e estruturas malformadas.",
+      "Imagem": "/images/mascot/syntaxx.png",
+      "Planeta": { "id": 2, "Nome": "Astra-12" },
+      "Titulo": "O Vigilante da Sintaxe",
+      "Personalidade": "Metódico e um pouco exigente. Fica ansioso quando vê código desorganizado.",
+      "Habilidade_Especial": "Pisca em vermelho quando detecta um erro de sintaxe e em verde quando tudo está perfeito",
+      "Aparência": "Pequeno e angular, com olhos que brilham em diferentes cores conforme o estado do código."
+    },
+    {
+      "id": 3,
+      "Nome": "Algorix",
+      "Descrição": "Um ser geométrico que flutua suavemente, sempre calculando o caminho mais eficiente. Sua mente funciona como um algoritmo vivo, otimizando tudo ao seu redor.",
+      "Imagem": "/images/mascot/algorix.png",
+      "Planeta": { "id": 2, "Nome": "Astra-12" },
+      "Titulo": "O Estrategista de Código",
+      "Personalidade": "Racional, paciente e estratégico. Fala em padrões lógicos e adora resolver problemas complexos.",
+      "Habilidade_Especial": "identifica redundâncias em códigos e sugere estruturas mais eficientes.",
+      "Aparência": "Corpo formado por linhas luminosas que se rearranjam conforme pensa. Tem um núcleo brilhante que pulsa em ritmo algorítmico."
+    },
+    {
+      "id": 4,
+      "Nome": "Floris",
+      "Descrição": "Pequena criatura arbórea que personifica a força da natureza, capaz de florescer em qualquer ambiente.",
+      "Imagem": "/images/mascot/floris.png",
+      "Planeta": { "id": 2, "Nome": "Verdax" },
+      "Titulo": "O Guardião da Vida Resiliente",
+      "Personalidade": "Amigável, Brincalhão, Otimista",
+      "Habilidade_Especial": "Cura pequenos danos ambientais ao seu redor. Farol natural: Atrai criaturas perdidas com um brilho aconchegante.",
+      "Aparência": "Corpo verde-musgo com textura de casca jovem, Oito olhos redondos que brilham como vagalumes, Raízes móveis que se adaptam a qualquer solo, Galhos que florescem quando feliz."
+    },
+    {
+      "id": 5,
+      "Nome": "Cachee",
+      "Descrição": "Um mascote veloz que armazena informações frequentemente usadas para agilizar processos.",
+      "Imagem": "/images/mascot/cachee.png",
+      "Planeta": { "id": 2, "Nome": "Glaciora" },
+      "Titulo": "O Acelerador de Acesso",
+      "Personalidade": "Rápido e eficiente, mas às vezes esquecido (quando o cache expira).",
+      "Habilidade_Especial": "Reduz tempo de carregamento e evita consultas repetitivas.",
+      "Aparência": "Pequeño e dinâmico, com um disco rígido simbólico girando em suas costas."
+    },
+    {
+      "id": 6,
+      "Nome": "Stacko",
+      "Descrição": "Um robô empilhador que adora estruturas ordenadas e detesta estouros de memória.",
+      "Imagem": "/images/mascot/stacko.png",
+      "Planeta": { "id": 2, "Nome": "Crystalia" },
+      "Titulo": "O Organizador de Pilhas",
+      "Personalidade": "Organizado e um pouco obsessivo com limites.",
+      "Habilidade_Especial": "Ajuda a gerenciar chamadas aninhadas e evita stack overflows.",
+      "Aparência": "Parece uma torre de blocos com sensores que brilham conforme a profundidade da pilha."
+    },
+    {
+      "id": 7,
+      "Nome": "Voidy",
+      "Descrição": "Um ser feito de sombras estelares que habita espaços não renderizados ou regiões inexploradas do sistema.",
+      "Imagem": "/images/mascot/voidy.png",
+      "Planeta": { "id": 2, "Nome": "Tesserax" },
+      "Titulo": "O Explorador do Vazio",
+      "Personalidade": "Curioso e um pouco solitário, adora descobrir bugs de renderização ou áreas esquecidas.",
+      "Habilidade_Especial": "Revela zonas ocultas ou recursos não utilizados no código.",
+      "Aparência": "Silhueta negra com constelações pulsantes em seu interior; parece 'desfocado' nas bordas."
+    },
+    {
+      "id": 8,
+      "Nome": "Snipz",
+      "Descrição": "Um especialista em snippets e macros, sempre pronto para oferecer trechos de código úteis.",
+      "Imagem": "/images/mascot/snipz.png",
+      "Planeta": { "id": 2, "Nome": "Bitron" },
+      "Titulo": "O Mestre dos Atalhos",
+      "Personalidade": "Prático e ágil, odeia repetição desnecessária.",
+      "Habilidade_Especial": "Recomenda atalhos e autocompletar inteligente baseado em contextos anteriores.",
+      "Aparência": "Pequeno e modular, como um bloco de construção que se transforma conforme a necessidade."
+    },
+    {
+      "id": 9,
+      "Nome": "GigaFix",
+      "Descrição": "Um robô robusto que lida com vazamentos de memória e gargalos de processamento.",
+      "Imagem": "/images/mascot/gigafix.png",
+      "Planeta": { "id": 2, "Nome": "Glaciora" },
+      "Titulo": "O Resolvedor de Problemas Pesados",
+      "Personalidade": "Sólido e confiável, age como um 'faxineiro' de recursos.",
+      "Habilidade_Especial": "Otimiza alocação de memória e reduz latência em operações pesadas.",
+      "Aparência": "Grande e metálico, com placas de circuito expostas que brilham quando trabalha."
+    },
+    {
+      "id": 10,
+      "Nome": "Poxel",
+      "Descrição": "Mestre de desafios visuais, como ajustes de UI ou otimização de gráficos.",
+      "Imagem": "/images/mascot/poxel.png",
+      "Planeta": { "id": 2, "Nome": "Fluxaris" },
+      "Titulo": "O Artista Pixelado",
+      "Personalidade": "Criativo e detalhista, obsessivo por alinhamento perfeito.",
+      "Habilidade_Especial": "Corrige pixel-off e sugere paletas de cores acessíveis.",
+      "Aparência": "Cubo feito de pixels animados que se rearranjam como um rubik's cube."
+    }
+  ],
   "medalhas_cosmicas": {
     "data": [
       {
@@ -930,51 +924,48 @@
     ],
     "meta": { "total": 2, "page": 1, "per_page": 10 }
   },
-  "conquistas": {
-    "data": [
-      {
-        "id": 1,
-        "Nome": "Raiz Sólida",
-        "Descrição": "Ao completar todas as tarefas verdes de um ciclo, você prova que estabilidade também é poder.",
-        "Tarefas": "🍃 Consistência nas entregas 🍃 Compromisso com o todo 🍃 Força invisível que sustenta o progresso",
-        "Qtd_moedas": 10,
-        "Imagem": "/images/achievement/raiz-solida.png",
-        "Planeta": { "id": 1, "Nome": "Nebula-7" },
-        "Status": { "id": 5, "Nome": "Ativa" }
-      },
-      {
-        "id": 2,
-        "Nome": "Ferro Vermelho",
-        "Descrição": "Entregar 5 tarefas vermelhas antes do prazo",
-        "Tarefas": "🔥 Velocidade sob pressão 🔥 Espírito inabalável diante de falhas críticas",
-        "Qtd_moedas": 15,
-        "Imagem": "/images/achievement/ferro-vermelho.png",
-        "Planeta": { "id": 2, "Nome": "Astra-12" },
-        "Status": { "id": 5, "Nome": "Ativa" }
-      },
-      {
-        "id": 3,
-        "Nome": "Explorador de Solo",
-        "Descrição": "Complete o primeiro deploy sem falhas",
-        "Tarefas": "🚀 Coragem no primeiro passo 🚀 Execução impecável 🚀 Início lendário na missão",
-        "Qtd_moedas": 15,
-        "Imagem": "/images/achievement/explorador-de-solo.png",
-        "Planeta": { "id": 2, "Nome": "Astra-12" },
-        "Status": { "id": 5, "Nome": "Ativa" }
-      },
-      {
-        "id": 4,
-        "Nome": "Qualidade Constante",
-        "Descrição": "Detectar e corrigir um bug em ambiente de teste antes do QA",
-        "Tarefas": "🧠 Olhar afiado para falhas 🧠 Ação antes da detecção externa 🧠 Excelência como rotina",
-        "Qtd_moedas": 15,
-        "Imagem": "/images/achievement/qualidade-constante.png",
-        "Planeta": { "id": 2, "Nome": "Astra-12" },
-        "Status": { "id": 5, "Nome": "Ativa" }
-      }
-    ],
-    "meta": { "total": 2, "page": 1, "per_page": 10 }
-  },
+  "conquistas": [
+    {
+      "id": 1,
+      "Nome": "Raiz Sólida",
+      "Descrição": "Ao completar todas as tarefas verdes de um ciclo, você prova que estabilidade também é poder.",
+      "Tarefas": "🍃 Consistência nas entregas 🍃 Compromisso com o todo 🍃 Força invisível que sustenta o progresso",
+      "Qtd_moedas": 10,
+      "Imagem": "/images/achievement/raiz-solida.png",
+      "Planeta": { "id": 1, "Nome": "Nebula-7" },
+      "Status": { "id": 5, "Nome": "Ativa" }
+    },
+    {
+      "id": 2,
+      "Nome": "Ferro Vermelho",
+      "Descrição": "Entregar 5 tarefas vermelhas antes do prazo",
+      "Tarefas": "🔥 Velocidade sob pressão 🔥 Espírito inabalável diante de falhas críticas",
+      "Qtd_moedas": 15,
+      "Imagem": "/images/achievement/ferro-vermelho.png",
+      "Planeta": { "id": 2, "Nome": "Astra-12" },
+      "Status": { "id": 5, "Nome": "Ativa" }
+    },
+    {
+      "id": 3,
+      "Nome": "Explorador de Solo",
+      "Descrição": "Complete o primeiro deploy sem falhas",
+      "Tarefas": "🚀 Coragem no primeiro passo 🚀 Execução impecável 🚀 Início lendário na missão",
+      "Qtd_moedas": 15,
+      "Imagem": "/images/achievement/explorador-de-solo.png",
+      "Planeta": { "id": 2, "Nome": "Astra-12" },
+      "Status": { "id": 5, "Nome": "Ativa" }
+    },
+    {
+      "id": 4,
+      "Nome": "Qualidade Constante",
+      "Descrição": "Detectar e corrigir um bug em ambiente de teste antes do QA",
+      "Tarefas": "🧠 Olhar afiado para falhas 🧠 Ação antes da detecção externa 🧠 Excelência como rotina",
+      "Qtd_moedas": 15,
+      "Imagem": "/images/achievement/qualidade-constante.png",
+      "Planeta": { "id": 2, "Nome": "Astra-12" },
+      "Status": { "id": 5, "Nome": "Ativa" }
+    }
+  ],
   "transacoes": {
     "data": [
       {
