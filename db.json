@@ -6,23 +6,28 @@
       "Email_Mascado": "joao.astro@***.com",
       "Imagem": "https://xai.com/avatars/joao.webp",
       "Descrição": "Explorador de bugs estelares",
-      "Estelares": 150,
+      "Estelares": 1000,
+      "transferidos_estelares": 30,
+      "recebidos_estelares": 13,
       "Nível": 3,
       "Avatar": { "id": 1, "Nome": "Traje Lunar", "Imagem": "link.png", "Tipo": { "id": 1, "Nome": "Traje" } },
       "Equipe": { "id": 1, "Nome": "Nave Orion", "Status": { "id": 5, "Nome": "Ativa" } },
-      "Cargo": "Tech Líder"
-    },
-    {
-      "id": 2,
-      "Nome": "Luna Maria",
-      "Email_Mascado": "luna.maria@***.com",
-      "Imagem": null,
-      "Descrição": "Especialista em código limpo",
-      "Estelares": 50,
-      "Nível": 1,
-      "Avatar": null,
-      "Equipe": { "id": 2, "Nome": "Estrela Polar", "Status": { "id": 4, "Nome": "Inativa" } },
-      "Cargo": "Desenvolvedor"
+      "Cargo": "Tech Líder",
+      "followers": 20,
+      "following": 38,
+      "credenciais": [
+          { "id": 1, "Nome": "Codestar-1" },
+          { "id": 2, "Nome": "Carteira Digital" },
+          { "id": 3, "Nome": "BB Financiamento" },
+          { "id": 4, "Nome": "BB Crédito" },
+          { "id": 4, "Nome": "Acessibilidade App" },
+          { "id": 4, "Nome": "Team Maiara Pires" }
+        ],
+      "highlights": [
+          { "id": 1, "Nome": "Vocês foi o membro mais ativo da tripulação Codestar-1 nesta semana" },
+          { "id": 2, "Nome": "Sua equipe de navegadores concluiu 5 missões com êxito nos últimos dois dias" },
+          { "id": 3, "Nome": "Você e a Codestar-1 já exploraram três planetas" }
+        ] 
     }
   ],
   "equipes": [
