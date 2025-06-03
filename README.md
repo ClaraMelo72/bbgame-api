@@ -33,14 +33,24 @@ Abaixo está um exemplo da estrutura padrão do arquivo `db.json`, que define os
 
 ```json
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+    "id": 1,
+    "nome": "Buggo",
+    "descricao": "Representação lúdica dos bugs, muda de cor conforme o estado do sistema.",
+    "imagem": "/images/mascot/buggo.png",
+    "planeta": {
+      "id": 1,
+      "nome": "Aeris",
+      "imagem": "/images/planet/aeris.png"
+    },
+    "titulo": "O Camaleão do Caos",
+    "personalidade": "Imprevisível e brincalhão, mas cooperativo quando domado.",
+    "habilidade_especial": "Transforma-se em ferramenta útil quando o código é corrigido.",
+    "aparencia": "Esfera com pele de código vivo e olhos expressivos gigantes.",
+    "status": {
+      "id": 1,
+      "nome": "Conquistado"
+    }
+  }
 ```
 
 ### Endpoint da API
