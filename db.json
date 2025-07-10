@@ -903,8 +903,8 @@
         "id": 3,
         "nome": "Atrasada"
       },
-      "data_criacao": "2025-06-04T08:00:00Z",
-      "data_prazo": "2025-06-13T18:00:59Z",
+      "data_criacao": "2025-07-04T08:00:00Z",
+      "data_prazo": "2025-07-13T18:00:59Z",
       "data_conclusao": null,
       "qtd_moedas": 20,
       "conquista": {
@@ -945,8 +945,8 @@
         "id": 3,
         "nome": "Atrasada"
       },
-      "data_criacao": "2025-06-05T10:00:00Z",
-      "data_prazo": "2025-06-12T18:00:59Z",
+      "data_criacao": "2025-07-05T10:00:00Z",
+      "data_prazo": "2025-07-12T18:00:59Z",
       "data_conclusao": null,
       "qtd_moedas": 10,
       "conquista": {
@@ -987,8 +987,8 @@
         "id": 2,
         "nome": "Em Progresso"
       },
-      "data_criacao": "2025-06-10T09:00:00Z",
-      "data_prazo": "2025-06-17T18:00:59Z",
+      "data_criacao": "2025-07-10T09:00:00Z",
+      "data_prazo": "2025-07-17T18:00:59Z",
       "data_conclusao": null,
       "qtd_moedas": 20,
       "conquista": {
@@ -1029,8 +1029,8 @@
         "id": 2,
         "nome": "Em Progresso"
       },
-      "data_criacao": "2025-06-10T14:00:00Z",
-      "data_prazo": "2025-06-18T11:00:59Z",
+      "data_criacao": "2025-07-10T14:00:00Z",
+      "data_prazo": "2025-07-18T11:00:59Z",
       "data_conclusao": null,
       "qtd_moedas": 15,
       "conquista": {
@@ -1071,8 +1071,8 @@
         "id": 2,
         "nome": "Em Progresso"
       },
-      "data_criacao": "2025-06-12T11:00:00Z",
-      "data_prazo": "2025-06-17T16:00:59Z",
+      "data_criacao": "2025-07-12T11:00:00Z",
+      "data_prazo": "2025-07-17T16:00:59Z",
       "data_conclusao": null,
       "qtd_moedas": 100,
       "conquista": {
@@ -1113,8 +1113,8 @@
         "id": 2,
         "nome": "Em Progresso"
       },
-      "data_criacao": "2025-06-01T16:00:00Z",
-      "data_prazo": "2025-06-17T20:00:59Z",
+      "data_criacao": "2025-07-01T16:00:00Z",
+      "data_prazo": "2025-07-17T20:00:59Z",
       "data_conclusao": null,
       "qtd_moedas": 12,
       "conquista": {
@@ -1156,8 +1156,8 @@
         "nome": "Concluída"
       },
       "data_criacao": "2025-05-25T10:00:00Z",
-      "data_prazo": "2025-06-03T21:00:59Z",
-      "data_conclusao": "2025-06-10T14:30:00Z",
+      "data_prazo": "2025-07-03T21:00:59Z",
+      "data_conclusao": "2025-07-10T14:30:00Z",
       "qtd_moedas": 8,
       "conquista": {
         "id": 1,
@@ -1198,8 +1198,8 @@
         "nome": "Concluída"
       },
       "data_criacao": "2025-05-22T09:00:00Z",
-      "data_prazo": "2025-06-29T22:00:59Z",
-      "data_conclusao": "2025-06-12T11:15:00Z",
+      "data_prazo": "2025-07-29T22:00:59Z",
+      "data_conclusao": "2025-07-12T11:15:00Z",
       "qtd_moedas": 5,
       "conquista": {
         "id": 1,
@@ -1240,7 +1240,7 @@
         "nome": "Concluída"
       },
       "data_criacao": "2025-05-25T13:00:00Z",
-      "data_prazo": "2025-06-01T20:00:59Z",
+      "data_prazo": "2025-07-01T20:00:59Z",
       "data_conclusao": "2025-05-30T16:45:00Z",
       "qtd_moedas": 15,
       "conquista": {
@@ -1323,9 +1323,9 @@
         "id": 1,
         "nome": "Concluída"
       },
-      "data_criacao": "2025-06-12T14:00:00Z",
-      "data_prazo": "2025-06-30T21:00:59Z",
-      "data_conclusao": "2025-06-14T09:30:00Z",
+      "data_criacao": "2025-07-12T14:00:00Z",
+      "data_prazo": "2025-07-30T21:00:59Z",
+      "data_conclusao": "2025-07-14T09:30:00Z",
       "qtd_moedas": 10,
       "conquista": {
         "id": 1,
@@ -1407,9 +1407,9 @@
         "id": 1,
         "nome": "Concluída"
       },
-      "data_criacao": "2025-06-01T11:00:00Z",
-      "data_prazo": "2025-06-15T18:00:59Z",
-      "data_conclusao": "2025-06-11T17:20:00Z",
+      "data_criacao": "2025-07-01T11:00:00Z",
+      "data_prazo": "2025-07-15T18:00:59Z",
+      "data_conclusao": "2025-07-11T17:20:00Z",
       "qtd_moedas": 12,
       "conquista": {
         "id": 1,
@@ -1449,9 +1449,9 @@
         "id": 1,
         "nome": "Concluída"
       },
-      "data_criacao": "2025-06-01T11:00:00Z",
-      "data_prazo": "2025-06-15T18:00:59Z",
-      "data_conclusao": "2025-06-13T17:20:00Z",
+      "data_criacao": "2025-07-01T11:00:00Z",
+      "data_prazo": "2025-07-15T18:00:59Z",
+      "data_conclusao": "2025-07-13T17:20:00Z",
       "qtd_moedas": 12,
       "conquista": {
         "id": 1,
@@ -1715,7 +1715,7 @@
         "nome": "Pyron"
       },
       "planeta_destino": null,
-      "data_inicio": "2025-06-01T00:00:00Z",
+      "data_inicio": "2025-07-01T00:00:00Z",
       "data_prevista_termino": null,
       "data_conclusao": null,
       "status": {
@@ -1808,7 +1808,7 @@
       },
       "planeta_destino": null,
       "data_inicio": "2025-05-15T00:00:00Z",
-      "data_prevista_termino": "2025-06-28T23:59:59Z",
+      "data_prevista_termino": "2025-07-28T23:59:59Z",
       "data_conclusao": null,
       "status": {
         "id": 9,
@@ -1831,7 +1831,7 @@
       },
       "planeta_destino": null,
       "data_inicio": "2025-05-15T00:00:00Z",
-      "data_prevista_termino": "2025-06-18T23:59:59Z",
+      "data_prevista_termino": "2025-07-18T23:59:59Z",
       "data_conclusao": null,
       "status": {
         "id": 9,
@@ -1853,8 +1853,8 @@
         "nome": "Pyron"
       },
       "planeta_destino": null,
-      "data_inicio": "2025-06-01T00:00:00Z",
-      "data_prevista_termino": "2025-06-20T00:00:00Z",
+      "data_inicio": "2025-07-01T00:00:00Z",
+      "data_prevista_termino": "2025-07-20T00:00:00Z",
       "data_conclusao": null,
       "status": {
         "id": 8,
@@ -1900,7 +1900,7 @@
       },
       "planeta_destino": null,
       "data_inicio": "2025-05-15T00:00:00Z",
-      "data_prevista_termino": "2025-06-10T23:59:59Z",
+      "data_prevista_termino": "2025-07-10T23:59:59Z",
       "data_conclusao": null,
       "status": {
         "id": 9,
